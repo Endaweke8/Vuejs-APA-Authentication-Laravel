@@ -5,8 +5,16 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        lora:"'Lora',serif",
+        dancing:"'Dancing Script', cursive",
+        arif:"'Tangerine', cursive",
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+
+  ],
 }
 
